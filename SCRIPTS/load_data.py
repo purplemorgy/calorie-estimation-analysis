@@ -2,7 +2,7 @@ from datasets import load_dataset
 import pandas as pd
 
 def load_food_dataset():
-    dataset = load_dataset("mmathys/food-nutrients")  # replace this
+    dataset = load_dataset("mmathys/food-nutrients")
 
     df = dataset["test"].to_pandas()
     
